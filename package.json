@@ -1,0 +1,22 @@
+{
+  "name": "Geek V",
+  "version": "1.0.0",
+  "scripts": {
+	"build": "npx @11ty/eleventy",
+	"start": "npx @11ty/eleventy --serve --quiet",
+	"debug": "DEBUG=Eleventy* npx @11ty/eleventy",
+	"debugstart": "DEBUG=Eleventy* npx @11ty/eleventy --serve --quiet",
+	"benchmark": "DEBUG=Eleventy:Benchmark* npx @11ty/eleventy"
+  },
+  "keywords": [],
+  "author": {
+	  "name": "Ali Atashrooz",
+	  "email": "atashroozarash@gmail.com",
+	  "url": "https://arash28134.github.io"
+  },
+  "license": "MIT",
+  "description": "Viper's Personal Blog",
+  "dependencies": {
+    "@11ty/eleventy": "2.0.1"
+  }
+}
