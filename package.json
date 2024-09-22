@@ -1,5 +1,5 @@
 {
-  "name": "Geek V",
+  "name": "Viper's Personal Blog'",
   "version": "1.0.0",
   "scripts": {
 	"build": "npx @11ty/eleventy",
